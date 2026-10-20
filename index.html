@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a class="logo" href="#top">Anthony Chalfoun</a>
+    <div>
+      <a href="#about">About</a>
+      <a href="#lifeguard">Lifeguard</a>
+      <a href="#volleyball">Volleyball</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#codebrave">CodeBrave</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="card hero" id="top">
+    <img src="mypicture.jpeg">
+    <div>
+      <h1>Anthony Chalfoun</h1>
+      <p>17 years old, from Okaibe, Kesserwan</p>
+      <p>Developer, Lifeguard, Volleyball player</p>
+    </div>
+  </div>
+
+  <div class="card letter" id="about">
+    <h2>About me</h2>
+    <p>I’ve always believed that technical logic and physical discipline fuel each other. As a GS (General Sciences)
+      student in Lycee Public Jbeil, I spend my time solving problems in physics and math, while training hard enough to
+      compete and win at the top level in volleyball. My coding journey started with <a class="cb"
+        href="#codebrave">CodeBrave</a>, where I moved from standard web development into Python, Machine Learning, and
+      AI fundamentals. I don't just enjoy writing code. I enjoy the leadership side of tech: coordinating ideas,
+      communicating across languages (I speak 3 fluently and am learning a 4th), and taking projects from a raw concept
+      to something functional. I’m currently exploring degree paths in Software Engineering, AI, and Tech Strategy,
+      looking for opportunities where I can build impactful systems and lead high-performing teams.</p>
+  </div>
+
+  <div class="card two" id="lifeguard">
+    <div>
+      <h2>Lifeguard</h2>
+      <p>I'm a NAUI certified lifeguard. I passed on 28 March 2026.</p>
+      <p>The job is simple: watch closely, stay calm, and be ready the second someone needs you.</p>
+    </div>
+    <img src="lifeguard.jpg">
+  </div>
+
+  <div class="card two" id="volleyball">
+    <div>
+      <h2>Volleyball</h2>
+      <p>I've been playing since I was 12 years old.</p>
+      <p><strong>Position:</strong> 6, Libero</p>
+      <p><strong>Main skills:</strong> excellent forearm passing and fast reactions.</p>
+      <p>First place, U16 Championship, Andalos Okaibe.</p>
+    </div>
+    <img src="volley.jpg">
+  </div>
+
+  <div class="card" id="certificates">
+    <h2>Certificates</h2>
+    <p><strong>DALF C1</strong><br>French, Institut Français, Jounieh, 2026</p>
+    <p><strong>First Aid</strong><br>Lebanese Red Cross, 2025</p>
+  </div>
+
+  <div class="card two" id="codebrave">
+    <div>
+      <h2>CodeBrave</h2>
+      <p>CodeBrave is a Lebanese non-profit organization that focuses on providing Computer Science and AI education to
+        underserved children and youth in Lebanon. Established in 2018, CodeBrave aims to bridge the digital divide by
+        equipping students with essential skills and pathways to opportunity. The organization combines classroom
+        learning with teacher training to ensure sustainable impact, and it has positively impacted over 10,000 learners
+        by developing their skills in coding, robotics, and entrepreneurship. CodeBrave operates through partnerships
+        with schools and community centers, delivering structured programs that foster confidence and problem-solving
+        abilities.</p>
+      <a href="https://codebrave.org">codebrave.org</a>
+    </div>
+    <img src="codebrave.jpg" alt="Me at CodeBrave">
+  </div>
+
+  <div class="card" id="projects">
+    <h2>Projects</h2>
+    <p><a href="http://127.0.0.1:5500/Guide%20to%20my%20country/index.html" target="_blank" rel="noopener noreferrer">View My Project</a>
+      <br>This project is about my country Lebanon.
+      The website talks about its history, culture, places and food.
+    </p>
+
+  </div>
+
+  <div class="card" id="contact">
+    <h2>Contact</h2>
+    <p>Drop your name, email and message below if you want to contact me, I'm always available and ready to hear from
+      you! </p>
+    <div class="email">
+      <form action="https://formspree.io/f/moejyjvr" method="post">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </div>
+  <footer> &copy;2026 Anthony Chalfoun | Personal Portfolio</footer>
+
+</body>
+
+</html>
